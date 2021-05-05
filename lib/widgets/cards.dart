@@ -8,7 +8,7 @@ class CardsPage extends StatelessWidget {
       padding: EdgeInsets.only(left: 8),
       height: _mediaQuery.height * 0.4,
       width: double.infinity,
-      color: Colors.black,
+      color: Colors.white,
       child: ListView(
         scrollDirection: Axis.horizontal,
         children: [
