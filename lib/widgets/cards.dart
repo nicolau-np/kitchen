@@ -26,6 +26,7 @@ class CardsPage extends StatelessWidget {
             bottomLeft: Radius.circular(10),
             bottomRight: Radius.circular(10),
           ),
+          border: Border.all(color: Colors.grey),
           boxShadow: [
             BoxShadow(
               color: Colors.white.withOpacity(0.8),
