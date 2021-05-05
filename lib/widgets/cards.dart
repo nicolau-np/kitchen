@@ -13,9 +13,25 @@ class CardsPage extends StatelessWidget {
         scrollDirection: Axis.horizontal,
         children: [
           Container(
+            decoration: BoxDecoration(
+              color: Colors.white,
+              borderRadius: BorderRadius.only(
+                topLeft: Radius.circular(10),
+                topRight: Radius.circular(10),
+                bottomLeft: Radius.circular(10),
+                bottomRight: Radius.circular(10),
+              ),
+              boxShadow: [
+                BoxShadow(
+                  color: Colors.black54.withOpacity(0.5),
+                  spreadRadius: 5,
+                  blurRadius: 7,
+                  offset: Offset(0, 2), // changes position of shadow
+                ),
+              ],
+            ),
             height: double.infinity,
             width: _mediaQuery.height * 0.35,
-            color: Colors.amber,
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -25,7 +41,6 @@ class CardsPage extends StatelessWidget {
                   height: _mediaQuery.height * 0.2,
                   width: double.infinity,
                 ),
-
                 Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: Text(
@@ -51,10 +66,9 @@ class CardsPage extends StatelessWidget {
                   child: Text(
                     "Akz 1300,00",
                     style: TextStyle(
-                      fontWeight: FontWeight.bold,
-                      fontSize: 15,
-                      color: Colors.black
-                    ),
+                        fontWeight: FontWeight.bold,
+                        fontSize: 15,
+                        color: Colors.black),
                   ),
                 ),
               ],
