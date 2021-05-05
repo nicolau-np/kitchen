@@ -1,22 +1,25 @@
 import 'package:flutter/material.dart';
+import 'package:kitchen/screens/cozinha.dart' as cozinha;
+import 'package:kitchen/screens/home.dart' as home;
+import 'package:kitchen/screens/user.dart' as user;
 
 class TabsPage extends StatefulWidget {
   @override
   _TabsPageState createState() => _TabsPageState();
 }
 
-class _TabsPageState extends State<TabsPage> with SingleTickerProviderStateMixin{
-  
+class _TabsPageState extends State<TabsPage>
+    with SingleTickerProviderStateMixin {
   TabController tabController;
 
   @override
-  void initState(){
+  void initState() {
     super.initState();
     tabController = new TabController(vsync: this, length: 3);
   }
 
   @override
-  void dispose(){
+  void dispose() {
     tabController.dispose();
     super.dispose();
   }
@@ -30,14 +33,25 @@ class _TabsPageState extends State<TabsPage> with SingleTickerProviderStateMixin
         bottom: TabBar(
           controller: tabController,
           tabs: [
-            Tab(icon: Icon(Icons.home),),
-            Tab(icon: Icon(Icons.food_bank_outlined),),
-            Tab(icon: Icon(Icons.supervised_user_circle),)
+            Tab(
+              icon: Icon(Icons.home),
+            ),
+            Tab(
+              icon: Icon(Icons.food_bank_outlined),
+            ),
+            Tab(
+              icon: Icon(Icons.supervised_user_circle),
+            )
           ],
         ),
       ),
-      body: Container(
-        child: Text("hello"),
+      body: TabBarView(
+        controller: tabController,
+        children: [
+          home.HomePage(),
+          cozinha.CozinhaPage(),
+          user.UserPage(),
+        ],
       ),
     );
   }
