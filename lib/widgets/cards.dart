@@ -6,7 +6,7 @@ class CardsPage extends StatelessWidget {
     final _mediaQuery = MediaQuery.of(context).size;
     return Container(
       padding: EdgeInsets.only(left: 8),
-      height: _mediaQuery.height * 0.4,
+      height: _mediaQuery.height * 0.5,
       width: double.infinity,
       color: Colors.white,
       child: ListView(
@@ -73,8 +73,12 @@ class CardsPage extends StatelessWidget {
                           color: Colors.amber,
                         ),
                       ),
+                      SizedBox(
+                        width: 80,
+                      ),
                       CircleAvatar(
-                        
+                        backgroundColor: Colors.brown.shade800,
+                        child: Text('AH'),
                       ),
                     ],
                   ),
