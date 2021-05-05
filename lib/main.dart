@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       title: "Kitchen",
       theme: ThemeData(
         scaffoldBackgroundColor: Colors.white,
-        primarySwatch: Colors.blue[50],
+        primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       initialRoute: '/home',
