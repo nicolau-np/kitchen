@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:kitchen/widgets/cards.dart';
 import 'package:kitchen/widgets/carousel.dart';
+import 'package:kitchen/widgets/list_categoria.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -16,7 +17,8 @@ class HomePage extends StatelessWidget {
           Padding(
             padding: EdgeInsets.only(left: 8, bottom: 12, top: 12),
             child: Container(
-              height: _mediaQueryData.height *0.2,
+              height: _mediaQueryData.height * 0.05,
+              child: ListaCategoria(),
             ),
           ),
           Padding(
