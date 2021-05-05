@@ -26,7 +26,7 @@ class CardsPage extends StatelessWidget {
                   color: Colors.black54.withOpacity(0.5),
                   spreadRadius: 5,
                   blurRadius: 7,
-                  offset: Offset(0, 2), // changes position of shadow
+                  offset: Offset(0, 1), // changes position of shadow
                 ),
               ],
             ),
