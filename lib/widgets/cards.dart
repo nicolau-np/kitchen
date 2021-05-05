@@ -12,20 +12,21 @@ class CardsPage extends StatelessWidget {
       child: ListView(
         scrollDirection: Axis.horizontal,
         children: [
-         Container(
-           height: double.infinity,
-           width: _mediaQuery.height * 0.5,
-           color: Colors.amber,
-           child: Column(
-             children: [
-               Image.network(''),
-             ],
-           ),
-         ),
+          Container(
+            height: double.infinity,
+            width: _mediaQuery.height * 0.5,
+            color: Colors.amber,
+            child: Column(
+              children: [
+                Image.network(
+                  'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Calulu.jpg/220px-Calulu.jpg',
+                  fit: BoxFit.cover,
+                ),
+              ],
+            ),
+          ),
         ],
       ),
     );
   }
-
-
 }
