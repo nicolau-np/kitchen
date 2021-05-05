@@ -23,7 +23,7 @@ class CarouselPage extends StatelessWidget {
             'https://www.cathopic.com/images/1080p/1981d56e5267d4c4863d0c6925db08c5.jpg',
           ),
           NetworkImage(
-            'https://st4.depositphotos.com/18349226/20255/i/600/depositphotos_202550970-stock-photo-parent-children-praying-bed-family.jpg',
+            'https://www.pingodoce.pt/wp-content/uploads/2016/10/feijoada-516x310.jpg',
           ),
         ],
       ),
