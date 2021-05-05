@@ -7,28 +7,30 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     final _mediaQueryData = MediaQuery.of(context).size;
 
-    return Column(
-      mainAxisAlignment: MainAxisAlignment.start,
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        CarouselPage(),
-        Padding(
-          padding: EdgeInsets.only(left: 8, bottom: 12, top: 12),
-          child: Text(
-            "Destaques",
-            style: TextStyle(
-              color: Colors.black38,
-              fontSize: 22.0,
-              fontWeight: FontWeight.bold,
+    return SingleChildScrollView(
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          CarouselPage(),
+          Padding(
+            padding: EdgeInsets.only(left: 8, bottom: 12, top: 12),
+            child: Text(
+              "Destaques",
+              style: TextStyle(
+                color: Colors.black,
+                fontSize: 22.0,
+                fontWeight: FontWeight.bold,
+              ),
             ),
           ),
-        ),
-        Padding(
-          padding: EdgeInsets.only(top: 4),
-          child: CardsPage(),
-        ),
-       
-      ],
+          Padding(
+            padding: EdgeInsets.only(top: 4),
+            child: CardsPage(),
+          ),
+          
+        ],
+      ),
     );
   }
 }
