@@ -21,7 +21,7 @@ class _MyAppState extends State<MyApp> {
       title: "Kitchen",
       theme: ThemeData(
         scaffoldBackgroundColor: Colors.white,
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.teal,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       initialRoute: '/tabs',
