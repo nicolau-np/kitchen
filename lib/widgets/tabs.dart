@@ -27,6 +27,10 @@ class _TabsPageState extends State<TabsPage>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        child: Icon(Icons.shopping_bag),
+      ),
       appBar: AppBar(
         actions: [
           InkWell(
