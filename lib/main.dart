@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       title: "Kitchen",
       theme: ThemeData(
         scaffoldBackgroundColor: Colors.white,
-        primarySwatch: Colors.teal,
+        primarySwatch: Colors.amber,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       initialRoute: '/tabs',

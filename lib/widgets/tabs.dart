@@ -28,9 +28,13 @@ class _TabsPageState extends State<TabsPage>
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Kitchen"),
-        backgroundColor: Colors.teal,
+        title: Text(
+          "Kitchen",
+          style: TextStyle(color: Colors.white),
+        ),
+        backgroundColor: Colors.black,
         bottom: TabBar(
+          labelColor: Colors.white,
           controller: tabController,
           tabs: [
             Tab(
