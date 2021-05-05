@@ -30,7 +30,17 @@ class _TabsPageState extends State<TabsPage>
       appBar: AppBar(
         actions: [
           InkWell(
-            child: Icon(Icons.search),
+            child: Icon(
+              Icons.notifications,
+              color: Colors.amber,
+            ),
+            onTap: () {},
+          ),
+          InkWell(
+            child: Icon(
+              Icons.search,
+              color: Colors.amber,
+            ),
             onTap: () {},
           ),
         ],
