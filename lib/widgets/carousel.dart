@@ -10,7 +10,7 @@ class CarouselPage extends StatelessWidget {
       child: Carousel(
         dotSize: 4.0,
         dotSpacing: 15.0,
-        dotColor: Colors.lightGreenAccent,
+        dotColor: Colors.black,
         indicatorBgPadding: 15.0,
         dotBgColor: Colors.black38,
         dotVerticalPadding: 0.0,
