@@ -28,7 +28,7 @@ class HomePage extends StatelessWidget {
             padding: EdgeInsets.only(top: 4),
             child: Container(
               padding: EdgeInsets.only(left: 8),
-              height: _mediaQueryData.height * 0.41,
+              height: _mediaQueryData.height * 0.4,
               width: double.infinity,
               color: Colors.white,
               child: CardsPage(),

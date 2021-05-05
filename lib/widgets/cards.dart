@@ -6,8 +6,18 @@ class CardsPage extends StatelessWidget {
     return ListView(
       scrollDirection: Axis.horizontal,
       children: [
-        container(context),
-        container(context),
+        InkWell(
+          onTap: (){
+            print("comida1");
+          },
+          child: container(context),
+        ),
+        InkWell(
+          onTap: (){
+            print("comida2");
+          },
+          child: container(context),
+        ),
       ],
     );
   }
