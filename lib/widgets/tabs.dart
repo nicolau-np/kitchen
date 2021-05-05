@@ -12,7 +12,7 @@ class _TabsPageState extends State<TabsPage> with SingleTickerProviderStateMixin
   @override
   void initState(){
     super.initState();
-    tabController = new TabController(vsync: this, length: 2);
+    tabController = new TabController(vsync: this, length: 3);
   }
 
   @override
@@ -31,7 +31,8 @@ class _TabsPageState extends State<TabsPage> with SingleTickerProviderStateMixin
           controller: tabController,
           tabs: [
             Tab(icon: Icon(Icons.home),),
-            Tab(icon: Icon(Icons.kitchen),)
+            Tab(icon: Icon(Icons.kitchen),),
+            Tab(icon: Icon(Icons.supervised_user_circle),)
           ],
         ),
       ),
