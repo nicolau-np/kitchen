@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:kitchen/widgets/cards.dart';
 import 'package:kitchen/widgets/carousel.dart';
 
 class HomePage extends StatelessWidget {
@@ -8,6 +9,8 @@ class HomePage extends StatelessWidget {
     return Column(
       children: [
         CarouselPage(),
+        Text("Destaques"),
+        CardsPage(),
       ],
     );
   }
