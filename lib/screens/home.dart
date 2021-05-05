@@ -53,13 +53,42 @@ class HomePage extends StatelessWidget {
               ),
             ),
           ),
-          Center(
-            child: Column(
-              children: [
-                Container(
-                  child: CircleAvatar(backgroundImage: NetworkImage('', scale: 1.0,),),
-                ),
-              ],
+          Container(
+            height: 80.0,
+            child: Center(
+              child: Row(
+                crossAxisAlignment: CrossAxisAlignment.center,
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.only(right:20.0),
+                    child: CircleAvatar(
+                      backgroundImage: NetworkImage(
+                        'https://i.ytimg.com/vi/1QqEXNwU1Bw/hqdefault.jpg',
+                        scale: 1.0,
+                      ),
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.only(right:20.0),
+                    child: CircleAvatar(
+                      backgroundImage: NetworkImage(
+                        'https://i.ytimg.com/vi/1QqEXNwU1Bw/hqdefault.jpg',
+                        scale: 1.0,
+                      ),
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.only(right:20.0),
+                    child: CircleAvatar(
+                      backgroundImage: NetworkImage(
+                        'https://i.ytimg.com/vi/1QqEXNwU1Bw/hqdefault.jpg',
+                        scale: 1.0,
+                      ),
+                    ),
+                  ),
+                ],
+              ),
             ),
           ),
         ],
