@@ -36,19 +36,25 @@ class CardsPage extends StatelessWidget {
                         fontWeight: FontWeight.bold),
                   ),
                 ),
-                Text(
-                  "Funge, carne seca de vaca e molho de tomate e algumas folhas de gimboa",
-                  style: TextStyle(
-                    color: Colors.black54,
-                    fontSize: 14,
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Text(
+                    "Funge, carne seca de vaca e molho de tomate e algumas folhas de gimboa",
+                    style: TextStyle(
+                      color: Colors.black54,
+                      fontSize: 14,
+                    ),
                   ),
                 ),
-                Text(
-                  "Akz 1300,00",
-                  style: TextStyle(
-                    fontWeight: FontWeight.bold,
-                    fontSize: 15,
-                    color: Colors.black
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Text(
+                    "Akz 1300,00",
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 15,
+                      color: Colors.black
+                    ),
                   ),
                 ),
               ],
