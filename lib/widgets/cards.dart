@@ -6,7 +6,7 @@ class CardsPage extends StatelessWidget {
     final _mediaQuery = MediaQuery.of(context).size;
     return Container(
       padding: EdgeInsets.only(left: 8),
-      height: _mediaQuery.height * 0.43,
+      height: _mediaQuery.height * 0.41,
       width: double.infinity,
       color: Colors.white,
       child: ListView(
@@ -38,11 +38,11 @@ class CardsPage extends StatelessWidget {
                 Image.network(
                   'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Calulu.jpg/220px-Calulu.jpg',
                   fit: BoxFit.cover,
-                  height: _mediaQuery.height * 0.2,
+                  height: _mediaQuery.height * 0.18,
                   width: double.infinity,
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(left:8, top: 6),
+                  padding: const EdgeInsets.only(left: 8, top: 8),
                   child: Text(
                     "Funge de Carne Seca",
                     style: TextStyle(
@@ -52,7 +52,7 @@ class CardsPage extends StatelessWidget {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(left:8, top: 6),
+                  padding: const EdgeInsets.only(left: 8, top: 6),
                   child: Text(
                     "Funge, carne seca de vaca e molho de tomate e algumas folhas de gimboa",
                     style: TextStyle(
@@ -62,7 +62,7 @@ class CardsPage extends StatelessWidget {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(left:8, top: 6),
+                  padding: const EdgeInsets.only(left: 8, top: 6),
                   child: Row(
                     children: [
                       Text(
@@ -76,8 +76,16 @@ class CardsPage extends StatelessWidget {
                       SizedBox(
                         width: 80,
                       ),
-                      CircleAvatar(
-                        backgroundImage: NetworkImage('https://i.ytimg.com/vi/1QqEXNwU1Bw/hqdefault.jpg', scale: 1.0),
+                      InkWell(
+                        onTap: (){
+                          print("clicou");
+                        },
+                        child: CircleAvatar(
+                          backgroundImage: NetworkImage(
+                            'https://i.ytimg.com/vi/1QqEXNwU1Bw/hqdefault.jpg',
+                            scale: 2.0,
+                          ),
+                        ),
                       ),
                     ],
                   ),
