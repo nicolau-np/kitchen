@@ -24,10 +24,9 @@ class HomePage extends StatelessWidget {
           ),
         ),
         Padding(
-          padding: EdgeInsets.only(top: 12),
-          child:  CardsPage(),
+          padding: EdgeInsets.only(top: 4),
+          child: CardsPage(),
         ),
-       
       ],
     );
   }
