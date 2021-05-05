@@ -34,6 +34,12 @@ class HomePage extends StatelessWidget {
               child: CardsPage(),
             ),
           ),
+          Container(
+              height: _mediaQueryData.height * 0.2,
+              width: double.infinity,
+              color: Colors.black,
+            ),
+          
         ],
       ),
     );
