@@ -29,7 +29,7 @@ class _TabsPageState extends State<TabsPage>
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          "Kitchen",
+          "KiTchen KiTchan",
           style: TextStyle(
             color: Colors.amber,
           ),
