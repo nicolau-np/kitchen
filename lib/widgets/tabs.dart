@@ -30,7 +30,10 @@ class _TabsPageState extends State<TabsPage>
       appBar: AppBar(
         title: Text("Kitchen"),
         backgroundColor: Colors.teal,
-        bottom: TabBar(
+      ),
+      bottomNavigationBar: Material(
+        color: Colors.teal,
+        child: TabBar(
           controller: tabController,
           tabs: [
             Tab(
