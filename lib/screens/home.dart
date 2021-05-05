@@ -17,13 +17,17 @@ class HomePage extends StatelessWidget {
           child: Text(
             "Destaques",
             style: TextStyle(
-              color: Colors.black,
+              color: Colors.black38,
               fontSize: 22.0,
               fontWeight: FontWeight.bold,
             ),
           ),
         ),
-        CardsPage(),
+        Padding(
+          padding: EdgeInsets.only(top: 12),
+          child:  CardsPage(),
+        ),
+       
       ],
     );
   }
