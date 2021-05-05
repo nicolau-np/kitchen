@@ -17,10 +17,10 @@ class CarouselPage extends StatelessWidget {
         dotPosition: DotPosition.bottomRight,
         images: [
           NetworkImage(
-            'https://cdn.jornalgrandebahia.com.br/2017/12/Orando-rezando.jpg',
+            'https://angola24horas.com/media/k2/items/cache/3324eaa35494ac0e2881e8caef2e6617_XL.jpg',
           ),
           NetworkImage(
-            'https://www.cathopic.com/images/1080p/1981d56e5267d4c4863d0c6925db08c5.jpg',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcxBkUryzqtyCCtSwfStkSXeey7VSKvdpY3A&usqp=CAU',
           ),
           NetworkImage(
             'https://www.pingodoce.pt/wp-content/uploads/2016/10/feijoada-516x310.jpg',
