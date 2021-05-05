@@ -63,13 +63,20 @@ class CardsPage extends StatelessWidget {
                 ),
                 Padding(
                   padding: const EdgeInsets.all(8.0),
-                  child: Text(
-                    "Akz 1300,00",
-                    style: TextStyle(
-                      fontWeight: FontWeight.bold,
-                      fontSize: 15,
-                      color: Colors.amber,
-                    ),
+                  child: Row(
+                    children: [
+                      Text(
+                        "Akz 1300,00",
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 15,
+                          color: Colors.amber,
+                        ),
+                      ),
+                      CircleAvatar(
+                        
+                      ),
+                    ],
                   ),
                 ),
               ],
