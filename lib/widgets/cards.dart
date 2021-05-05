@@ -37,14 +37,7 @@ class CardsPage extends StatelessWidget {
             bottomRight: Radius.circular(10),
           ),
           border: Border.all(color: Colors.grey),
-          boxShadow: [
-            BoxShadow(
-              color: Colors.white.withOpacity(0.8),
-              spreadRadius: 5,
-              blurRadius: 7,
-              offset: Offset(0, 1), // changes position of shadow
-            ),
-          ],
+       
         ),
         height: double.infinity,
         width: _mediaQuery.height * 0.35,
