@@ -29,7 +29,7 @@ class _TabsPageState extends State<TabsPage>
     return Scaffold(
       appBar: AppBar(
         title: Text("Kitchen"),
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.amber[200],
         bottom: TabBar(
           controller: tabController,
           tabs: [
