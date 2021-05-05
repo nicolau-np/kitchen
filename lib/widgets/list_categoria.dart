@@ -23,6 +23,7 @@ class ListaCategoria extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.only(right: 8.0),
           child: Container(
+            
             padding: EdgeInsets.all(9),
             height: 20,
             color: Colors.black,
