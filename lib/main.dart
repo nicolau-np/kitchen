@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:kitchen/screens/home.dart';
+import 'package:kitchen/widgets/tabs.dart';
 
 void main() {
   runApp(MyApp());
@@ -17,9 +18,10 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
 
-      initialRoute: '/home',
+      initialRoute: '/tabs',
       routes: {
         '/home': (context)=> HomePage(),
+        '/tabs': (context)=>TabsPage(),
       },
     );
   }
