@@ -15,6 +15,12 @@ class HomePage extends StatelessWidget {
           CarouselPage(),
           Padding(
             padding: EdgeInsets.only(left: 8, bottom: 12, top: 12),
+            child: Container(
+              height: _mediaQueryData.height *0.2,
+            ),
+          ),
+          Padding(
+            padding: EdgeInsets.only(left: 8, bottom: 12, top: 12),
             child: Text(
               "Destaques",
               style: TextStyle(
