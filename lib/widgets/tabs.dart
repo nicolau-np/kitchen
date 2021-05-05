@@ -11,7 +11,14 @@ class _TabsPageState extends State<TabsPage> with SingleTickerProviderStateMixin
 
   @override
   void initState(){
-    
+    super.initState();
+    tabController = new TabController(vsync: this, length: 2);
+  }
+
+  @override
+  void dispose(){
+    tabController.dispose();
+    super.dispose();
   }
 
   @override
@@ -21,6 +28,7 @@ class _TabsPageState extends State<TabsPage> with SingleTickerProviderStateMixin
         title: Text("Kitchen"),
         backgroundColor: Colors.teal,
         bottom: TabBar(
+          controller: tabController,
           tabs: [
             Tab(icon: Icon(Icons.home),),
             Tab(icon: Icon(Icons.kitchen),)
