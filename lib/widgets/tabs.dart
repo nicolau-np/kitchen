@@ -28,6 +28,12 @@ class _TabsPageState extends State<TabsPage>
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        actions: [
+          InkWell(
+            child: Icon(Icons.search),
+            onTap: () {},
+          ),
+        ],
         title: Text(
           "KiTchen KiTchan",
           style: TextStyle(
