@@ -9,7 +9,8 @@ class TabsPage extends StatelessWidget {
         backgroundColor: Colors.teal,
         bottom: TabBar(
           tabs: [
-            
+            Tab(icon: Icon(Icons.home),),
+            Tab(icon: Icon(Icons.kitchen),)
           ],
         ),
       ),
