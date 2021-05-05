@@ -6,13 +6,45 @@ class ListaCategoria extends StatelessWidget {
     return ListView(
       scrollDirection: Axis.horizontal,
       children: [
-        Container(
-          height: 20,
-          color: Colors.black,
-          child: Text(
-            "Cozinha Angolana",
-            style: TextStyle(
-              color: Colors.amber,
+        Padding(
+          padding: const EdgeInsets.only(right: 8.0),
+          child: Container(
+            padding: EdgeInsets.all(9),
+            height: 20,
+            color: Colors.black,
+            child: Text(
+              "Cozinha Angolana",
+              style: TextStyle(
+                color: Colors.amber,
+              ),
+            ),
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(right: 8.0),
+          child: Container(
+            padding: EdgeInsets.all(9),
+            height: 20,
+            color: Colors.black,
+            child: Text(
+              "Cozinha Brazileira",
+              style: TextStyle(
+                color: Colors.amber,
+              ),
+            ),
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(right: 8.0),
+          child: Container(
+            padding: EdgeInsets.all(9),
+            height: 20,
+            color: Colors.black,
+            child: Text(
+              "Cozinha Brazileira",
+              style: TextStyle(
+                color: Colors.amber,
+              ),
             ),
           ),
         ),
