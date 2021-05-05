@@ -53,10 +53,14 @@ class HomePage extends StatelessWidget {
               ),
             ),
           ),
-          Container(
-            height: _mediaQueryData.height * 0.2,
-            width: double.infinity,
-            color: Colors.black,
+          Center(
+            child: Column(
+              children: [
+                Container(
+                  child: CircleAvatar(backgroundImage: NetworkImage('', scale: 1.0,),),
+                ),
+              ],
+            ),
           ),
         ],
       ),
