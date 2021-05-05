@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:kitchen/screens/cozinha.dart';
 import 'package:kitchen/screens/home.dart';
+import 'package:kitchen/screens/user.dart';
 import 'package:kitchen/widgets/tabs.dart';
 
 void main() {
@@ -17,11 +19,12 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-
       initialRoute: '/tabs',
       routes: {
-        '/home': (context)=> HomePage(),
-        '/tabs': (context)=>TabsPage(),
+        '/home': (context) => HomePage(),
+        '/tabs': (context) => TabsPage(),
+        '/user': (context) => UserPage(),
+        '/cozinha': (context) => CozinhaPage(),
       },
     );
   }
