@@ -6,7 +6,16 @@ class ListaCategoria extends StatelessWidget {
     return ListView(
       scrollDirection: Axis.horizontal,
       children: [
-        Container(),
+        Container(
+          height: 20,
+          color: Colors.black,
+          child: Text(
+            "Cozinha Angolana",
+            style: TextStyle(
+              color: Colors.amber,
+            ),
+          ),
+        ),
       ],
     );
   }
