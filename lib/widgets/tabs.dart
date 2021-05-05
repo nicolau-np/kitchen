@@ -31,7 +31,7 @@ class _TabsPageState extends State<TabsPage> with SingleTickerProviderStateMixin
           controller: tabController,
           tabs: [
             Tab(icon: Icon(Icons.home),),
-            Tab(icon: Icon(Icons.kitchen),),
+            Tab(icon: Icon(Icons.food_bank_outlined),),
             Tab(icon: Icon(Icons.supervised_user_circle),)
           ],
         ),
