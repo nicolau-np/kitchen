@@ -17,6 +17,7 @@ class CardsPage extends StatelessWidget {
             width: _mediaQuery.height * 0.35,
             color: Colors.amber,
             child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Image.network(
                   'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Calulu.jpg/220px-Calulu.jpg',
@@ -24,6 +25,9 @@ class CardsPage extends StatelessWidget {
                   height: _mediaQuery.height*0.2,
                   width: double.infinity,
                 ),
+                Text("Funge de Carne Seca"),
+                Text("Funge, carne seca de vaca e molho de tomate e algumas folhas de gimboa"),
+                Text("Akz 1300,00"),
               ],
             ),
           ),
