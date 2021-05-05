@@ -5,7 +5,15 @@ class TabsPage extends StatefulWidget {
   _TabsPageState createState() => _TabsPageState();
 }
 
-class _TabsPageState extends State<TabsPage> {
+class _TabsPageState extends State<TabsPage> with SingleTickerProviderStateMixin{
+  
+  TabController tabController;
+
+  @override
+  void initState(){
+    
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
