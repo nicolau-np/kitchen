@@ -6,7 +6,7 @@ class CardsPage extends StatelessWidget {
     final _mediaQuery = MediaQuery.of(context).size;
     return Container(
       padding: EdgeInsets.only(left: 8),
-      height: _mediaQuery.height * 0.5,
+      height: _mediaQuery.height * 0.43,
       width: double.infinity,
       color: Colors.white,
       child: ListView(
@@ -42,7 +42,7 @@ class CardsPage extends StatelessWidget {
                   width: double.infinity,
                 ),
                 Padding(
-                  padding: const EdgeInsets.all(8.0),
+                  padding: const EdgeInsets.only(left:8, top: 6),
                   child: Text(
                     "Funge de Carne Seca",
                     style: TextStyle(
@@ -52,7 +52,7 @@ class CardsPage extends StatelessWidget {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsets.all(8.0),
+                  padding: const EdgeInsets.only(left:8, top: 6),
                   child: Text(
                     "Funge, carne seca de vaca e molho de tomate e algumas folhas de gimboa",
                     style: TextStyle(
@@ -62,7 +62,7 @@ class CardsPage extends StatelessWidget {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsets.all(8.0),
+                  padding: const EdgeInsets.only(left:8, top: 6),
                   child: Row(
                     children: [
                       Text(
@@ -77,8 +77,7 @@ class CardsPage extends StatelessWidget {
                         width: 80,
                       ),
                       CircleAvatar(
-                        backgroundColor: Colors.brown.shade800,
-                        child: Text('AH'),
+                        backgroundImage: NetworkImage('https://i.ytimg.com/vi/1QqEXNwU1Bw/hqdefault.jpg', scale: 1.0),
                       ),
                     ],
                   ),
