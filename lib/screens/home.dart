@@ -34,12 +34,22 @@ class HomePage extends StatelessWidget {
               child: CardsPage(),
             ),
           ),
-          Container(
-              height: _mediaQueryData.height * 0.2,
-              width: double.infinity,
-              color: Colors.black,
+          Padding(
+            padding: EdgeInsets.only(left: 8, bottom: 12, top: 12),
+            child: Text(
+              "Cozinhas",
+              style: TextStyle(
+                color: Colors.black,
+                fontSize: 22.0,
+                fontWeight: FontWeight.bold,
+              ),
             ),
-          
+          ),
+          Container(
+            height: _mediaQueryData.height * 0.2,
+            width: double.infinity,
+            color: Colors.black,
+          ),
         ],
       ),
     );
