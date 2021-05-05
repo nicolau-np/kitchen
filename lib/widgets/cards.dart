@@ -6,7 +6,7 @@ class CardsPage extends StatelessWidget {
     final _mediaQuery = MediaQuery.of(context).size;
     return Container(
       padding: EdgeInsets.only(left: 8),
-      height: _mediaQuery.height * 0.5,
+      height: _mediaQuery.height * 0.4,
       width: double.infinity,
       color: Colors.black,
       child: ListView(
@@ -21,7 +21,7 @@ class CardsPage extends StatelessWidget {
                 Image.network(
                   'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Calulu.jpg/220px-Calulu.jpg',
                   fit: BoxFit.cover,
-                  height: 12,
+                  height: _mediaQuery.height*0.2,
                   width: double.infinity,
                 ),
               ],
