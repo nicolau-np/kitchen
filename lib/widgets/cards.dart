@@ -22,11 +22,18 @@ class CardsPage extends StatelessWidget {
                 Image.network(
                   'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Calulu.jpg/220px-Calulu.jpg',
                   fit: BoxFit.cover,
-                  height: _mediaQuery.height*0.2,
+                  height: _mediaQuery.height * 0.2,
                   width: double.infinity,
                 ),
-                Text("Funge de Carne Seca"),
-                Text("Funge, carne seca de vaca e molho de tomate e algumas folhas de gimboa"),
+                Text(
+                  "Funge de Carne Seca",
+                  style: TextStyle(
+                      color: Colors.black,
+                      fontSize: 14,
+                      fontWeight: FontWeight.bold),
+                ),
+                Text(
+                    "Funge, carne seca de vaca e molho de tomate e algumas folhas de gimboa"),
                 Text("Akz 1300,00"),
               ],
             ),
