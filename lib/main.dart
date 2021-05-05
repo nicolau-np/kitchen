@@ -7,13 +7,7 @@ import 'package:kitchen/widgets/tabs.dart';
 void main() {
   runApp(MyApp());
 }
-
-class MyApp extends StatefulWidget {
-  @override
-  _MyAppState createState() => _MyAppState();
-}
-
-class _MyAppState extends State<MyApp> {
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -21,10 +15,10 @@ class _MyAppState extends State<MyApp> {
       title: "Kitchen",
       theme: ThemeData(
         scaffoldBackgroundColor: Colors.white,
-        primarySwatch: Colors.teal,
+        primarySwatch: Colors.blue[50],
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      initialRoute: '/tabs',
+      initialRoute: '/home',
       routes: {
         '/home': (context) => HomePage(),
         '/tabs': (context) => TabsPage(),
@@ -34,3 +28,4 @@ class _MyAppState extends State<MyApp> {
     );
   }
 }
+
