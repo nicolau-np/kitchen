@@ -33,19 +33,25 @@ class _TabsPageState extends State<TabsPage>
       ),
       appBar: AppBar(
         actions: [
-          InkWell(
-            child: Icon(
-              Icons.notifications,
-              color: Colors.amber,
+          Padding(
+            padding: const EdgeInsets.only(right: 10.0),
+            child: InkWell(
+              child: Icon(
+                Icons.notifications,
+                color: Colors.amber,
+              ),
+              onTap: () {},
             ),
-            onTap: () {},
           ),
-          InkWell(
-            child: Icon(
-              Icons.search,
-              color: Colors.amber,
+          Padding(
+            padding: const EdgeInsets.only(right:10.0),
+            child: InkWell(
+              child: Icon(
+                Icons.search,
+                color: Colors.amber,
+              ),
+              onTap: () {},
             ),
-            onTap: () {},
           ),
         ],
         title: Text(
