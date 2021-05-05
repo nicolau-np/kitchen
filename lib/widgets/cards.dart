@@ -4,12 +4,7 @@ class CardsPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final _mediaQuery = MediaQuery.of(context).size;
-    return Container(
-      padding: EdgeInsets.only(left: 8),
-      height: _mediaQuery.height * 0.41,
-      width: double.infinity,
-      color: Colors.white,
-      child: ListView(
+    return ListView(
         scrollDirection: Axis.horizontal,
         children: [
           Container(
@@ -94,7 +89,7 @@ class CardsPage extends StatelessWidget {
             ),
           ),
         ],
-      ),
+      
     );
   }
 }
