@@ -19,6 +19,7 @@ class CozinhaPage extends StatelessWidget {
             ),
           ),
         ),
+        CardsCozinha(),
       ],
     );
   }
