@@ -24,6 +24,19 @@ class LoginPage extends StatelessWidget {
           ),
           Padding(
             padding: const EdgeInsets.only(top: 10.0),
+            child: TextFormField(
+              
+              decoration: InputDecoration(
+                labelText: "Nome de Usuário",
+                hintText: "Nome de Usuário",
+                
+              ),
+              
+              controller: null,
+              style: TextStyle(
+                color: Colors.amber,
+              ),
+            ),
           )
         ],
       ),
