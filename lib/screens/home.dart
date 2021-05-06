@@ -24,7 +24,7 @@ class HomePage extends StatelessWidget {
           Padding(
             padding: EdgeInsets.only(left: 8, bottom: 12, top: 12),
             child: Text(
-              "Destaques",
+              "Pratos",
               style: TextStyle(
                 color: Colors.black,
                 fontSize: 22.0,
@@ -45,7 +45,7 @@ class HomePage extends StatelessWidget {
           Padding(
             padding: EdgeInsets.only(left: 8, bottom: 12, top: 12),
             child: Text(
-              "Cozinhas",
+              "Cozinheiras",
               style: TextStyle(
                 color: Colors.black,
                 fontSize: 22.0,
