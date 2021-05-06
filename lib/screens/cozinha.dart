@@ -5,13 +5,17 @@ class CozinhaPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
+      
       children: [
-        Text(
-          "Pratos",
-          style: TextStyle(
-            color: Colors.black,
-            fontSize: 22.0,
-            fontWeight: FontWeight.bold,
+        Padding(
+          padding: const EdgeInsets.only(left:8.0, top:4.0),
+          child: Text(
+            "Pratos",
+            style: TextStyle(
+              color: Colors.black,
+              fontSize: 22.0,
+              fontWeight: FontWeight.bold,
+            ),
           ),
         ),
       ],
