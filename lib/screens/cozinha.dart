@@ -10,9 +10,9 @@ class CozinhaPage extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.start,
       children: [
         Container(
-          height: _mediaQueryData.height*0.07,
+          height: _mediaQueryData.height * 0.07,
           child: Padding(
-            padding: const EdgeInsets.only(left:8.0, top:8.0),
+            padding: const EdgeInsets.only(left: 8.0, top: 8.0),
             child: Text(
               "Pratos",
               style: TextStyle(
