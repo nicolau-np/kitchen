@@ -84,7 +84,13 @@ class CardsCozinha extends StatelessWidget {
                         SizedBox(
                           width: 10,
                         ),
-                        Text("Mama Cuiba")
+                        Text(
+                          "Mama Cuiba",
+                          style: TextStyle(
+                            fontSize: 14,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        )
                       ],
                     ),
                   ),
