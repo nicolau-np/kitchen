@@ -6,10 +6,26 @@ class CardsCozinha extends StatelessWidget {
     final _mediaQueryData = MediaQuery.of(context).size;
 
     return Container(
-      height: _mediaQueryData.height * 0.71,
+      height: _mediaQueryData.height * 0.7425,
       width: double.infinity,
       color: Colors.black,
-      child: Text("hello"),
+      child: ListView(
+        scrollDirection: Axis.vertical,
+        children: [
+
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(
+              height: 250.0,
+              width: double.infinity,
+              color: Colors.white,
+              child: Column(
+                children: [],
+              ),
+            ),
+          ),
+        ],
+      ),
     );
   }
 }
