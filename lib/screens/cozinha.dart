@@ -7,7 +7,8 @@ class CozinhaPage extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
-              
+                Text("Cozinhas"),
+                CardsCozinha(),
             ],
           ),
     );
