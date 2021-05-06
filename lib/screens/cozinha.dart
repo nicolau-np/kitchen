@@ -5,7 +5,8 @@ class CozinhaPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
-      
+      crossAxisAlignment: CrossAxisAlignment.start,
+      mainAxisAlignment: MainAxisAlignment.start,
       children: [
         Padding(
           padding: const EdgeInsets.only(left:8.0, top:4.0),
