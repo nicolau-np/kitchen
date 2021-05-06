@@ -11,7 +11,11 @@ class CardsCozinha extends StatelessWidget {
       color: Colors.black,
       child: ListView(
         scrollDirection: Axis.vertical,
-        children: [cards(context)],
+        children: [
+          cards(context),
+          cards(context),
+          cards(context),
+        ],
       ),
     );
   }
